@@ -5,7 +5,7 @@ function JS(){
 	var node = document.createElement("LI");
 	var textnode = document.createTextNode("MySQL");
 	node.appendChild(textnode);
-	x[4].appendChild(node);
+	document.getElementById("List").appendChild(node);
 }
 function change(){
 	var x = document.getElementsByTagName("h2");
